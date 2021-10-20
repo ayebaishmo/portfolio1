@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
 }
+
 .toolbar {
   display: flex;
   background-color: #3c3a39;
@@ -12,6 +14,7 @@ body {
   padding: 0;
   height: 92px;
 }
+
 .toolbar > div {
   flex-grow: 1;
   margin-top: 50px;
@@ -26,12 +29,11 @@ body {
 }
 
 .toolbar > div > h1 {
-  color: #ffffff;
+  color: #fff;
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
   font-style: normal;
-  font-family: Roboto;
 }
 
 .headline {
@@ -46,7 +48,6 @@ body {
 }
 
 .headline > div > h2 {
-  font-family: Crete Round;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
@@ -58,7 +59,6 @@ body {
 }
 
 .headline > div > h3 {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -69,7 +69,6 @@ body {
 }
 
 .headline > div > p {
-  font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
