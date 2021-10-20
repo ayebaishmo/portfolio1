@@ -28,12 +28,13 @@ body {
   margin-top: 10px;
 }
 
-.toolbar > div > h1 {
+.toolbar > div > a {
   color: #fff;
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
   font-style: normal;
+  text-decoration: none;
 }
 
 .headline {
