@@ -83,3 +83,85 @@ body {
 .headline > div > ul > li {
   display: inline;
 }
+
+.works_head {
+  display: inline-grid;
+  grid-template-columns: auto;
+  padding: 10px;
+}
+
+.works_head > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.works_head > div > h3 {
+  text-align: center;
+  padding-top: 120px;
+  color: #1c1a19;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.works_head > div > hr {
+  margin: 0 30px 120px;
+  border: 0.05px solid #212121;
+}
+
+.works_head > div > img {
+  margin-top: -40px;
+}
+
+.works_head > div > h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+.works_head > div > p {
+  margin-top: -30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.works_head > div > ul {
+  margin-left: -45px;
+}
+
+.works_head > div > ul > li {
+  display: inline;
+}
+
+.works_head > div > ul > li > button {
+  padding: 12px;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: #ffffff;
+  border: 1px solid #8993a4;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.works_head > div > button {
+  width: 124px;
+  height: 48px;
+  left: 0px;
+  top: 259px;
+  background: #ff6b00;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+}
