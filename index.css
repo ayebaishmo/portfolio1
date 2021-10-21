@@ -88,6 +88,8 @@ body {
   display: inline-grid;
   grid-template-columns: auto;
   padding: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .works_head > div {
@@ -103,11 +105,13 @@ body {
   font-weight: normal;
   font-size: 40px;
   line-height: 52px;
+  margin-left: -45px;
 }
 
 .works_head > div > hr {
-  margin: 0 30px 120px;
+  margin: 0 2px 120px;
   border: 0.05px solid #212121;
+  margin-right: 30px;
 }
 
 .works_head > div > img {
@@ -164,4 +168,73 @@ body {
   font-size: 17px;
   line-height: 24px;
   border: none;
+}
+
+.works_det {
+  margin-top: -30px;
+  display: inline-grid;
+  grid-template-columns: auto;
+  padding: 10px;
+}
+
+.works_det > div {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url("img/works_card.png");
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.works_det > div > h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+.works_det > div > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-top: -45px;
+  color: #ffffff;
+}
+
+.works_det > div > ul {
+  margin-top: -10px;
+  margin-left: -25px;
+}
+.works_det > div > ul > li {
+  display: inline;
+}
+
+.works_det > div > ul > li > button {
+  padding: 12px;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: 1px solid #8993a4;
+  font-weight: 500;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.works_det > div > button {
+  color: #ffffff;
+  background-color: #ff6b00;
+  border: none;
+  padding: 15px 25px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 400px;
 }
