@@ -241,6 +241,7 @@ body {
 
 .about {
   background-color: #1c1a19;
+  height: 1961px;
 }
 
 .about_head {
@@ -291,4 +292,27 @@ body {
   margin: 200px 2px 120px;
   border: 1px solid #ffffff;
   margin-right: 30px;
+}
+
+.about_lang {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about_lang > ul > li {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.about_lang > ul > li:first-child {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
 }
