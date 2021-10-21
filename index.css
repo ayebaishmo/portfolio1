@@ -238,3 +238,57 @@ body {
   width: 100%;
   max-width: 400px;
 }
+
+.about {
+  background-color: #1c1a19;
+}
+
+.about_head {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  background-image: url("img/about_back.png");
+  background-repeat: no-repeat;
+  background-position: right 0 top 325px;
+}
+
+.about_head > h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: 100px;
+}
+
+.about_head > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin-top: -150px;
+}
+
+.about_head > button {
+  width: 150px;
+  height: 48px;
+  left: 0px;
+  top: 259px;
+  background: #ff6b00;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+}
+
+.about_head > hr {
+  margin: 200px 2px 120px;
+  border: 1px solid #ffffff;
+  margin-right: 30px;
+}
