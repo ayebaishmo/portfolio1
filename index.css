@@ -177,6 +177,7 @@ body {
   font-size: 17px;
   line-height: 24px;
   border: none;
+  cursor: pointer;
 }
 
 .works_head > div > button {
@@ -192,6 +193,7 @@ body {
   font-size: 17px;
   line-height: 24px;
   border: none;
+  cursor: pointer;
 }
 
 .works_head > div > ul > li {
@@ -205,6 +207,7 @@ body {
   padding: 15px 25px;
   font-weight: bold;
   width: 100%;
+  cursor: pointer;
   max-width: 400px;
 }
 
@@ -216,6 +219,7 @@ body {
   background-color: #fff;
   border: 1px solid #8993a4;
   font-weight: 500;
+  cursor: pointer;
   margin-left: 5px;
 }
 
@@ -276,6 +280,7 @@ body {
   border: 1px solid #8993a4;
   font-weight: 500;
   margin-left: 5px;
+  cursor: pointer;
   color: #fff;
 }
 
@@ -314,4 +319,8 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+}
+
+button :hover {
+  background-color: rgb(31, 31, 29);
 }
