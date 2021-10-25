@@ -268,7 +268,8 @@ body {
 }
 
 .works_det > div > ul > li {
-  display: inline;
+  /* display: inline; */
+  float: left;
 }
 
 .works_det > div > ul > li > button {
