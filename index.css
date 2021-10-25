@@ -265,6 +265,7 @@ body {
 .works_det > div > ul {
   margin-top: -10px;
   margin-left: -25px;
+  list-style-type: none;
 }
 
 .works_det > div > ul > li {
