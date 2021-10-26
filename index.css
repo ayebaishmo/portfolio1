@@ -324,3 +324,86 @@ body {
 button :hover {
   background-color: rgb(31, 31, 29);
 }
+
+footer > h6 {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 100px;
+  color: #172b4d;
+}
+
+footer > form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+footer > form > input {
+  margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 24px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px #dbd8d7;
+}
+
+footer > form > textarea {
+  margin-bottom: 25px;
+  font-family: Inter;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 12px;
+  color: #3c3a39;
+}
+
+footer > div > ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+footer > div > ul > li {
+  margin-left: 15px;
+}
+
+footer > form > button {
+  background-color: #ff6b00;
+  width: 131px;
+  padding: 12px;
+  color: #fff;
+  align-self: center;
+  border: none;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.footer_hr {
+  background-color: #dfe1e6;
+  height: 1px;
+  border: none;
+}
+
+.footer_hr_bottom {
+  background-color: #0d151e;
+  width: 132px;
+  height: 5px;
+  border-radius: 5px;
+}
