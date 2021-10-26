@@ -378,7 +378,7 @@ footer > div > ul > li {
   margin-left: 15px;
 }
 
-footer > form > button {
+.btn {
   background-color: #ff6b00;
   width: 131px;
   padding: 12px;
@@ -393,6 +393,18 @@ footer > form > button {
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+footer > form > button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .footer_hr {
