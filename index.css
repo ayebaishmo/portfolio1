@@ -402,7 +402,7 @@ footer > div > ul > li {
   border: 1px solid #f55800;
 }
 
-footer > form > button:active {
+.btn:active {
   background-color: #e05304;
   color: #f4f1f0;
 }
