@@ -419,3 +419,35 @@ footer > form > textarea {
   height: 5px;
   border-radius: 5px;
 }
+
+.toolbar > div > ul {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .toolbar {
+    height: 60px;
+  }
+  .toolbar > div {
+    margin-top: 15px;
+  }
+
+  .toolbar > div > img {
+    display: none;
+  }
+
+  .toolbar > div > ul {
+    display: block;
+    margin-top: -25px;
+ }
+
+  .toolbar > div > ul > li {
+    display: inline-block;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #fff;
+  }
+}
