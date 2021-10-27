@@ -236,6 +236,10 @@ footer > div > ul {
   cursor: pointer;
 }
 
+.works_det > div > ul > li {
+  display: inline;
+}
+
 .works_head > div > div > ul > li {
   display: inline;
 }
@@ -282,10 +286,6 @@ footer > div > ul {
   color: #fff;
   margin-top: 90px;
   margin-left: 20px;
-}
-
-.works_det > div > ul > li {
-  display: inline;
 }
 
 .works_det > div > ul > li > button {
