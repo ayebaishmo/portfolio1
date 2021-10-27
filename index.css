@@ -184,6 +184,11 @@ footer > div > ul {
   margin-bottom: 25px;
 }
 
+.works_det > div > ul {
+  margin-top: -10px;
+  margin-left: -25px;
+}
+
 .works_head > div > div > ul {
   margin-left: -45px;
 }
@@ -277,11 +282,6 @@ footer > div > ul {
   color: #fff;
   margin-top: 90px;
   margin-left: 20px;
-}
-
-.works_det > div > ul {
-  margin-top: -10px;
-  margin-left: -25px;
 }
 
 .works_det > div > ul > li {
