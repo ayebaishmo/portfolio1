@@ -449,6 +449,11 @@ footer div > form > textarea {
     flex-grow: 1;
   }
 
+  .social_icon_d > ul {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .toolbar > div > ul {
     display: block;
     margin-top: -25px;
@@ -626,6 +631,13 @@ footer div > form > textarea {
     background-position: right 0 top 80px;
   }
 
+  footer > div > h6 {
+    flex: 1 1 0;
+    text-align: left;
+    margin-left: 140px;
+    margin-right: 100px;
+  }
+
   .about_head > h6 {
     margin-left: 30px;
   }
@@ -633,13 +645,6 @@ footer div > form > textarea {
   .about_lang {
     flex-direction: row;
     margin-right: 250px;
-  }
-
-  footer > div > h6 {
-    flex: 1 1 0;
-    text-align: left;
-    margin-left: 140px;
-    margin-right: 100px;
   }
 
   footer > div > form {
@@ -651,14 +656,8 @@ footer div > form > textarea {
   footer > div > form > input {
     display: inline;
   }
-  
-  .social_icon_d > ul {
-    margin-right: auto;
-    margin-left: auto;
-  }
 
   .footer_hr_bottom {
     display: none;
   }
 }
-
