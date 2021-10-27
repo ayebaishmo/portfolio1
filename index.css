@@ -428,11 +428,11 @@ footer div > form > textarea {
   display: none;
 }
 
-
 @media only screen and (min-width: 1024px) {
   .toolbar {
     height: 60px;
   }
+
   .toolbar > div {
     margin-top: 10px;
   }
@@ -445,7 +445,7 @@ footer div > form > textarea {
     display: block;
     margin-top: -25px;
     padding-left: 460px;
- }
+  }
 
   .toolbar > div > ul > li {
     display: inline-block;
@@ -499,8 +499,8 @@ footer div > form > textarea {
   }
 
   .works_head > div > h3 {
-    margin-left: 110px; 
-    margin-top: -1px; 
+    margin-left: 110px;
+    margin-top: -1px;
   }
 
   .works_head > div > hr {
@@ -508,13 +508,13 @@ footer div > form > textarea {
     margin-top: 150px;
     margin-left: 20px;
   }
-  
+
   .works_head > .medhead_det {
     flex-direction: row;
     gap: 30px;
   }
 
-  .works_head > .medhead_det >div > img {
+  .works_head > .medhead_det > div > img {
     width: 500px;
     margin-left: 90px;
   }
@@ -535,7 +535,7 @@ footer div > form > textarea {
   }
 
   .works_det > div > button {
-  max-width: 327px;
+    max-width: 327px;
   }
 
   .works_det > .det1 {
@@ -544,32 +544,32 @@ footer div > form > textarea {
     background-size: 327px 400px;
   }
 
-  .works_det > .det1 > h5{
+  .works_det > .det1 > h5 {
     display: none;
   }
 
-  .works_det > .det1 > p{
+  .works_det > .det1 > p {
     display: none;
   }
 
-  .works_det > .det1 > ul{
+  .works_det > .det1 > ul {
     display: none;
   }
 
-  .works_det > .det1 > button{
+  .works_det > .det1 > button {
     margin-top: 373px;
-    }
+  }
 
   .works_det > .det2 {
     background-size: 327px 400px;
     background-image: url("img/det2.png");
   }
 
-  .works_det > .det2 > h5{
+  .works_det > .det2 > h5 {
     margin-top: 136px;
     }
 
-  .works_det > .det2 > button{
+  .works_det > .det2 > button {
     display: none;
   }
 
@@ -583,7 +583,7 @@ footer div > form > textarea {
     display: none;
   }
 
-  .works_det > .det3 > h5{
+  .works_det > .det3 > h5 {
     margin-top: 140px;
   }
 
@@ -626,7 +626,7 @@ footer div > form > textarea {
     flex-direction: row;
     margin-right: 250px;
   }
-  
+
   .about_lang > ul {
     flex-grow: 1;
   }
@@ -639,23 +639,20 @@ footer div > form > textarea {
     flex: 1 1 0;
     text-align: left;
     margin-left: 140px;
+    margin-right: 100px;
   }
 
   footer > div > form {
-    flex: 1 1 0 ;
+    flex: 1 1 0;
     margin-top: 100px;
     margin-right: 70px;
   }
 
-  footer > div > form > input{
+  footer > div > form > input {
     display: inline;
   }
-
-  footer > div > h6 {
-    margin-right: 100px;
-  }
-
-  .social_icon_d > ul{
+  
+  .social_icon_d > ul {
     margin-right: auto;
     margin-left: auto;
   }
