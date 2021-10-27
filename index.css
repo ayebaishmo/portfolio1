@@ -89,6 +89,10 @@ body {
   padding-right: 40px;
 }
 
+footer > div > ul > li {
+  margin-left: 15px;
+}
+
 .about_lang > ul > li {
   list-style-type: none;
   font-style: normal;
@@ -158,6 +162,15 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #091e42;
+}
+
+footer > div > ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .works_head > div > ul {
@@ -298,6 +311,19 @@ body {
   background-position: right 0 top 325px;
 }
 
+footer > h6 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 100px;
+  color: #172b4d;
+}
+
 .about_head > h6 {
   font-style: normal;
   font-weight: normal;
@@ -323,4 +349,73 @@ body {
 
 button :hover {
   background-color: rgb(31, 31, 29);
+}
+
+footer > form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+footer > form > input {
+  color: #979493;
+  margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 24px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px #dbd8d7;
+}
+
+footer > form > textarea {
+  background-color: #fbf8f7;
+  margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 12px;
+  color: #3c3a39;
+  border: none;
+}
+
+.btn {
+  background-color: #ff6b00;
+  width: 131px;
+  padding: 12px;
+  color: #fff;
+  align-self: center;
+  border: none;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.btn:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.footer_hr {
+  background-color: #dfe1e6;
+  height: 1px;
+  border: none;
+}
+
+.footer_hr_bottom {
+  background-color: #0d151e;
+  width: 132px;
+  height: 5px;
+  border-radius: 5px;
 }
