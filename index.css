@@ -262,6 +262,10 @@ body {
   color: #fff;
 }
 
+footer > div > ul > li {
+  margin-left: 15px;
+}
+
 .works_det > div > ul {
   margin-top: -10px;
   margin-left: -25px;
@@ -372,10 +376,6 @@ footer > div > ul {
   justify-content: center;
   margin-top: 25px;
   margin-bottom: 25px;
-}
-
-footer > div > ul > li {
-  margin-left: 15px;
 }
 
 .btn {
