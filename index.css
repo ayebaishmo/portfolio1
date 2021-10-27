@@ -359,6 +359,7 @@ footer > form {
 }
 
 footer > form > input {
+  color: #979493;
   margin-bottom: 25px;
   font-size: 15px;
   line-height: 24px;
@@ -369,11 +370,13 @@ footer > form > input {
 }
 
 footer > form > textarea {
+  background-color: #FBF8F7;
   margin-bottom: 25px;
   font-size: 15px;
   line-height: 24px;
   padding: 12px;
   color: #3c3a39;
+  border: none;
 }
 
 .btn {
