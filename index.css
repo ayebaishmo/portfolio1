@@ -189,6 +189,10 @@ footer > div > ul {
   margin-left: -25px;
 }
 
+.toolbar > div > ul {
+  display: none;
+}
+
 .works_head > div > div > ul {
   margin-left: -45px;
 }
@@ -240,6 +244,19 @@ footer > div > ul {
   display: inline;
 }
 
+.works_det > div > ul > li > button {
+  padding: 12px;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: 1px solid #8993a4;
+  font-weight: 500;
+  margin-left: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
 .works_head > div > div > ul > li {
   display: inline;
 }
@@ -286,19 +303,6 @@ footer > div > ul {
   color: #fff;
   margin-top: 90px;
   margin-left: 20px;
-}
-
-.works_det > div > ul > li > button {
-  padding: 12px;
-  font-style: normal;
-  font-size: 15px;
-  line-height: 20px;
-  background-color: rgba(255, 255, 255, 0.24);
-  border: 1px solid #8993a4;
-  font-weight: 500;
-  margin-left: 5px;
-  cursor: pointer;
-  color: #fff;
 }
 
 .about {
@@ -422,10 +426,6 @@ footer div > form > textarea {
   width: 132px;
   height: 5px;
   border-radius: 5px;
-}
-
-.toolbar > div > ul {
-  display: none;
 }
 
 @media only screen and (min-width: 1024px) {
