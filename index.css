@@ -193,6 +193,17 @@ footer > div > ul {
   cursor: pointer;
 }
 
+.works_det > div > button {
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+  padding: 15px 25px;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+  max-width: 327px;
+}
+
 .works_head > div > div > button {
   width: 124px;
   height: 48px;
@@ -211,17 +222,6 @@ footer > div > ul {
 
 .works_head > div > div > ul > li {
   display: inline;
-}
-
-.works_det > div > button {
-  color: #fff;
-  background-color: #ff6b00;
-  border: none;
-  padding: 15px 25px;
-  font-weight: bold;
-  width: 100%;
-  cursor: pointer;
-  max-width: 327px;
 }
 
 .works_head > div > div > ul > li > button {
