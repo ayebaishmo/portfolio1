@@ -567,7 +567,7 @@ footer div > form > textarea {
 
   .works_det > .det2 > h5 {
     margin-top: 136px;
-    }
+  }
 
   .works_det > .det2 > button {
     display: none;
@@ -578,7 +578,7 @@ footer div > form > textarea {
     background-size: 327px 400px;
   }
 
-  .works_det > .det3 > button{
+  .works_det > .det3 > button {
     background-size: 327px 400px;
     display: none;
   }
@@ -651,7 +651,7 @@ footer div > form > textarea {
   footer > div > form > input {
     display: inline;
   }
-  
+
   .social_icon_d > ul {
     margin-right: auto;
     margin-left: auto;
@@ -661,4 +661,3 @@ footer div > form > textarea {
     display: none;
   }
 }
-
