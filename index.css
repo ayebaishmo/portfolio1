@@ -477,6 +477,11 @@ footer div > form > textarea {
     padding-top: 25px;
   }
 
+  .about_head > p {
+    margin-left: 30px;
+    margin-right: 670px;
+  }
+
   .headline > div > p {
     margin-left: 115px;
     margin-right: 800px;
@@ -519,6 +524,10 @@ footer div > form > textarea {
     margin-left: 90px;
   }
 
+  .works_det > .det1 > p {
+    display: none;
+  }
+
   .works_head > .medhead_det > div > p {
     margin-right: 190px;
   }
@@ -545,10 +554,6 @@ footer div > form > textarea {
   }
 
   .works_det > .det1 > h5 {
-    display: none;
-  }
-
-  .works_det > .det1 > p {
     display: none;
   }
 
@@ -611,11 +616,6 @@ footer div > form > textarea {
 
   .about_head > h6 {
     margin-left: 30px;
-  }
-
-  .about_head > p {
-    margin-left: 30px;
-    margin-right: 670px;
   }
 
   .about_head > button {
