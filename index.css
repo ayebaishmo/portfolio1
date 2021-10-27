@@ -429,7 +429,7 @@ footer > form > textarea {
     height: 60px;
   }
   .toolbar > div {
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .toolbar > div > img {
@@ -439,6 +439,7 @@ footer > form > textarea {
   .toolbar > div > ul {
     display: block;
     margin-top: -25px;
+    padding-left: 460px;
  }
 
   .toolbar > div > ul > li {
