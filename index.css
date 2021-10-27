@@ -543,6 +543,10 @@ footer div > form > textarea {
     align-content: center;
   }
 
+  .about_head > button {
+    margin-left: 30px;
+  }
+
   .works_det > div > button {
     max-width: 327px;
   }
@@ -615,10 +619,6 @@ footer div > form > textarea {
   }
 
   .about_head > h6 {
-    margin-left: 30px;
-  }
-
-  .about_head > button {
     margin-left: 30px;
   }
 
