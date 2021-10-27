@@ -651,7 +651,7 @@ footer div > form > textarea {
   footer > div > form > input {
     display: inline;
   }
-
+  
   .social_icon_d > ul {
     margin-right: auto;
     margin-left: auto;
@@ -661,3 +661,4 @@ footer div > form > textarea {
     display: none;
   }
 }
+
