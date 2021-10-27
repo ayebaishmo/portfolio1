@@ -433,12 +433,20 @@ footer div > form > textarea {
     height: 60px;
   }
 
+  footer > div {
+    display: flex;
+  }
+
   .toolbar > div {
     margin-top: 10px;
   }
 
   .toolbar > div > img {
     display: none;
+  }
+
+  .about_lang > ul {
+    flex-grow: 1;
   }
 
   .toolbar > div > ul {
@@ -625,14 +633,6 @@ footer div > form > textarea {
   .about_lang {
     flex-direction: row;
     margin-right: 250px;
-  }
-
-  .about_lang > ul {
-    flex-grow: 1;
-  }
-
-  footer > div {
-    display: flex;
   }
 
   footer > div > h6 {
