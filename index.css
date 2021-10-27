@@ -89,6 +89,10 @@ body {
   padding-right: 40px;
 }
 
+footer > div > ul > li {
+  margin-left: 15px;
+}
+
 .about_lang > ul > li {
   list-style-type: none;
   font-style: normal;
@@ -160,8 +164,13 @@ body {
   color: #091e42;
 }
 
-footer > div > ul > li {
-  margin-left: 15px;
+footer > div > ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .works_head > div > ul {
@@ -365,15 +374,6 @@ footer > form > textarea {
   line-height: 24px;
   padding: 12px;
   color: #3c3a39;
-}
-
-footer > div > ul {
-  display: flex;
-  list-style-type: none;
-  padding-left: 0;
-  justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
 
 .btn {
