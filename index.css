@@ -99,10 +99,6 @@ body {
   margin-top: 20px;
 }
 
-footer > div > ul > li {
-  margin-left: 15px;
-}
-
 .headline > div > ul > li {
   display: inline;
 }
@@ -162,6 +158,10 @@ footer > div > ul > li {
   font-size: 20px;
   line-height: 24px;
   color: #091e42;
+}
+
+footer > div > ul > li {
+  margin-left: 15px;
 }
 
 .works_head > div > ul {
@@ -303,7 +303,6 @@ footer > div > ul > li {
 }
 
 footer > h6 {
-  font-family: Inter;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -362,7 +361,6 @@ footer > form > input {
 
 footer > form > textarea {
   margin-bottom: 25px;
-  font-family: Inter;
   font-size: 15px;
   line-height: 24px;
   padding: 12px;
@@ -385,7 +383,6 @@ footer > div > ul {
   color: #fff;
   align-self: center;
   border: none;
-  font-family: Inter;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
