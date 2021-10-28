@@ -648,6 +648,8 @@ footer div > form > textarea {
     text-align: left;
     margin-left: 140px;
     margin-right: 100px;
+    transition: transform 4s 3s;
+    transform: rotate(360deg);
   }
 
   .about_head > h6 {
