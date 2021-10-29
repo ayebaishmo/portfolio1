@@ -35,6 +35,20 @@ body {
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 .headline {
@@ -635,6 +649,8 @@ footer div > form > textarea {
     text-align: left;
     margin-left: 140px;
     margin-right: 100px;
+    transition: transform 4s 3s;
+    transform: rotate(360deg);
   }
 
   .about_head > h6 {
