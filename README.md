@@ -36,6 +36,9 @@ To get a local copy up and running follow these simple example steps:
 - clone the repo or download
 - open the files of the repo through code editor
 
+# Live link
+Click [here](https://ayebaishmo.github.io/Portfolio/)
+
 # Deployment
 
 - Run the index file on server
