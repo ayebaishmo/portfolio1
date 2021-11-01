@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps:
 - open the files of the repo through code editor
 
 # Live link
-Click [here] (https://ayebaishmo.github.io/Portfolio/)
+Click [here](https://ayebaishmo.github.io/Portfolio/)
 
 # Deployment
 
