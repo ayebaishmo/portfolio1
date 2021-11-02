@@ -84,6 +84,19 @@ body {
   margin-top: -50px;
 }
 
+footer > div > p {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 100px;
+  color: #172b4d;
+}
+
 .about_head > p {
   font-style: normal;
   font-weight: normal;
@@ -158,8 +171,29 @@ footer > div > ul > li {
   margin-right: 30px;
 }
 
+.works_det > div > img,
+.works_det > div > picture,
+.works_det > div > picture > img {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
 .works_head > div > div > img {
   margin-top: -40px;
+}
+
+.works_det > div > h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-top: 90px;
+  margin-left: 20px;
+  padding-bottom: 24px;
 }
 
 .works_head > div > div > h3 {
@@ -307,27 +341,6 @@ footer > div > ul {
   overflow: hidden;
 }
 
-.works_det > div > img,
-.works_det > div > picture,
-.works_det > div > picture > img {
-  position: absolute;
-  display: block;
-  z-index: -1;
-  width: 100%;
-  height: auto;
-}
-
-.works_det > div > h3 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-  margin-top: 90px;
-  margin-left: 20px;
-  padding-bottom: 24px;
-}
-
 .about {
   background-color: #1c1a19;
   height: 1961px;
@@ -340,19 +353,6 @@ footer > div > ul {
   background-image: url("img/about_back.png");
   background-repeat: no-repeat;
   background-position: right 0 bottom 120px;
-}
-
-footer > div > p {
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: center;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 100px;
-  color: #172b4d;
 }
 
 .about_head > h2 {
