@@ -406,6 +406,14 @@ footer > div > form > input {
   border-bottom: solid 1px #dbd8d7;
 }
 
+footer > div > form > input:invalid, textarea:invalid {
+  border: 1px solid red;
+}
+
+footer > div > form > input:valid, textarea:valid {
+  border: 1px solid green;
+}
+
 footer div > form > textarea {
   background-color: #fbf8f7;
   margin-bottom: 25px;
@@ -654,8 +662,6 @@ footer div > form > textarea {
     text-align: left;
     margin-left: 140px;
     margin-right: 100px;
-    transition: transform 4s 3s;
-    transform: rotate(360deg);
   }
 
   .about_head > h2 {
