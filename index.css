@@ -459,6 +459,8 @@ footer div > form > textarea {
 @media only screen and (min-width: 1024px) {
   .toolbar {
     height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   footer > div {
@@ -466,7 +468,7 @@ footer div > form > textarea {
   }
 
   .toolbar > div {
-    margin-top: 10px;
+    margin-block: 0;
   }
 
   .toolbar > div > img {
@@ -484,7 +486,7 @@ footer div > form > textarea {
 
   .toolbar > div > ul {
     display: block;
-    margin-top: -25px;
+    margin-block: 0;
     padding-left: 460px;
   }
 
@@ -493,7 +495,7 @@ footer div > form > textarea {
     margin-left: 20px;
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 20px;
     color: #fff;
   }
