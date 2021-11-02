@@ -74,6 +74,17 @@ body {
   padding-bottom: 24px;
 }
 
+.about_head > h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
 .headline > div > h2 {
   font-style: normal;
   font-weight: bold;
@@ -355,17 +366,6 @@ footer > div > ul {
   background-position: right 0 bottom 120px;
 }
 
-.about_head > h2 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 72px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
-  margin-top: 100px;
-  margin-bottom: 0;
-}
-
 .about_lang {
   display: flex;
   flex-direction: column;
@@ -401,14 +401,6 @@ footer > div > form > input {
   border-bottom: solid 1px #dbd8d7;
 }
 
-footer > div > form > input:invalid, textarea:invalid {
-  border: 1px solid red;
-}
-
-footer > div > form > input:valid, textarea:valid {
-  border: 1px solid green;
-}
-
 footer div > form > textarea {
   background-color: #fbf8f7;
   margin-bottom: 25px;
@@ -417,6 +409,16 @@ footer div > form > textarea {
   padding: 12px;
   color: #3c3a39;
   border: none;
+}
+
+footer > div > form > input:invalid, 
+textarea:invalid {
+  border: 1px solid red;
+}
+
+footer > div > form > input:valid, 
+textarea:valid {
+  border: 1px solid green;
 }
 
 .btn {
