@@ -236,7 +236,6 @@ footer > div > ul {
   font-weight: bold;
   width: 100%;
   cursor: pointer;
-  /* max-width: 327px; */
 }
 
 .works_head > div > div > button {
@@ -295,7 +294,6 @@ footer > div > ul {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto auto auto auto;
   gap: 24px;
-  /* margin-left: 50px; */
   align-content: center;
   justify-content: center;
 }
@@ -303,10 +301,7 @@ footer > div > ul {
 .works_det > div {
   display: flex;
   flex-direction: column;
-  /* margin: auto; */
-  /* width: 90%; */
   margin-bottom: 24px;
-  /* max-width: 372px; */
   position: relative;
   background-color: rgba(0, 0, 0, 0.75);
   overflow: hidden;
