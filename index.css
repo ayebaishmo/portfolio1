@@ -411,12 +411,12 @@ footer div > form > textarea {
   border: none;
 }
 
-footer > div > form > input:invalid, 
+footer > div > form > input:invalid,
 textarea:invalid {
   border: 1px solid red;
 }
 
-footer > div > form > input:valid, 
+footer > div > form > input:valid,
 textarea:valid {
   border: 1px solid green;
 }
@@ -520,9 +520,20 @@ textarea:valid {
     margin-left: 115px;
   }
 
+  .about_head > h2 {
+    margin-left: 30px;
+  }
+
   .headline > div > h2 {
     margin-left: 115px;
     padding-top: 25px;
+  }
+
+  footer > div > p {
+    flex: 1 1 0;
+    text-align: left;
+    margin-left: 140px;
+    margin-right: 100px;
   }
 
   .about_head > p {
@@ -652,17 +663,6 @@ textarea:valid {
   .about_head {
     background-image: url("img/about-back-desk.png");
     background-position: right 0 top 75px;
-  }
-
-  footer > div > p {
-    flex: 1 1 0;
-    text-align: left;
-    margin-left: 140px;
-    margin-right: 100px;
-  }
-
-  .about_head > h2 {
-    margin-left: 30px;
   }
 
   .about_lang {
