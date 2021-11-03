@@ -71,6 +71,18 @@ body {
   color: #ff6b00;
   margin-top: 120px;
   margin-left: 24px;
+  padding-bottom: 24px;
+}
+
+.about_head > h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: 100px;
+  margin-bottom: 0;
 }
 
 .headline > div > h2 {
@@ -83,13 +95,26 @@ body {
   margin-top: -50px;
 }
 
+footer > div > p {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 100px;
+  color: #172b4d;
+}
+
 .about_head > p {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  margin-top: -150px;
+  margin-top: 24px;
 }
 
 .headline > div > p {
@@ -134,7 +159,7 @@ footer > div > ul > li {
   flex-direction: column;
 }
 
-.works_head > div > h3 {
+.works_head > div > h2 {
   text-align: center;
   padding-top: 120px;
   color: #1c1a19;
@@ -157,11 +182,32 @@ footer > div > ul > li {
   margin-right: 30px;
 }
 
+.works_det > div > img,
+.works_det > div > picture,
+.works_det > div > picture > img {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
 .works_head > div > div > img {
   margin-top: -40px;
 }
 
-.works_head > div > div > h4 {
+.works_det > div > h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-top: 90px;
+  margin-left: 20px;
+  padding-bottom: 24px;
+}
+
+.works_head > div > div > h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -235,14 +281,13 @@ footer > div > ul {
   font-weight: bold;
   width: 100%;
   cursor: pointer;
-  max-width: 327px;
 }
 
 .works_head > div > div > button {
   width: 124px;
   height: 48px;
   top: 259px;
-  background: #ff6b00;
+  background: hsl(22, 100%, 33%);
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
@@ -252,6 +297,7 @@ footer > div > ul {
   line-height: 24px;
   border: none;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .works_det > div > ul > li {
@@ -288,12 +334,11 @@ footer > div > ul {
 }
 
 .works_det {
-  margin-top: -30px;
+  margin-top: 30px;
   display: inline-grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto auto auto auto;
-  padding: 10px;
-  margin-left: 50px;
+  gap: 24px;
   align-content: center;
   justify-content: center;
 }
@@ -301,22 +346,10 @@ footer > div > ul {
 .works_det > div {
   display: flex;
   flex-direction: column;
-  background-image: url("img/works_card.png");
-  background-repeat: no-repeat;
-  margin: auto;
-  width: 90%;
-  margin-top: 30px;
-  max-width: 372px;
-}
-
-.works_det > div > h5 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-  margin-top: 90px;
-  margin-left: 20px;
+  margin-bottom: 24px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.75);
+  overflow: hidden;
 }
 
 .about {
@@ -330,30 +363,7 @@ footer > div > ul {
   margin-left: 30px;
   background-image: url("img/about_back.png");
   background-repeat: no-repeat;
-  background-position: right 0 top 325px;
-}
-
-footer > div > h6 {
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: center;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 100px;
-  color: #172b4d;
-}
-
-.about_head > h6 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 72px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
-  margin-top: 100px;
+  background-position: right 0 bottom 120px;
 }
 
 .about_lang {
@@ -401,6 +411,16 @@ footer div > form > textarea {
   border: none;
 }
 
+footer > div > form > input:invalid,
+textarea:invalid {
+  border: 1px solid red;
+}
+
+footer > div > form > input:valid,
+textarea:valid {
+  border: 1px solid green;
+}
+
 .btn {
   background-color: #ff6b00;
   width: 131px;
@@ -445,6 +465,8 @@ footer div > form > textarea {
 @media only screen and (min-width: 1024px) {
   .toolbar {
     height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   footer > div {
@@ -452,7 +474,7 @@ footer div > form > textarea {
   }
 
   .toolbar > div {
-    margin-top: 10px;
+    margin-block: 0;
   }
 
   .toolbar > div > img {
@@ -470,7 +492,7 @@ footer div > form > textarea {
 
   .toolbar > div > ul {
     display: block;
-    margin-top: -25px;
+    margin-block: 0;
     padding-left: 460px;
   }
 
@@ -479,7 +501,7 @@ footer div > form > textarea {
     margin-left: 20px;
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 20px;
     color: #fff;
   }
@@ -498,9 +520,20 @@ footer div > form > textarea {
     margin-left: 115px;
   }
 
+  .about_head > h2 {
+    margin-left: 30px;
+  }
+
   .headline > div > h2 {
     margin-left: 115px;
     padding-top: 25px;
+  }
+
+  footer > div > p {
+    flex: 1 1 0;
+    text-align: left;
+    margin-left: 140px;
+    margin-right: 100px;
   }
 
   .about_head > p {
@@ -529,7 +562,7 @@ footer div > form > textarea {
     margin-top: -20px;
   }
 
-  .works_head > div > h3 {
+  .works_head > div > h2 {
     margin-left: 110px;
     margin-top: -1px;
   }
@@ -565,7 +598,7 @@ footer div > form > textarea {
   .works_det {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    margin-left: 50px;
+    margin-inline: 150px;
     align-content: center;
   }
 
@@ -573,17 +606,7 @@ footer div > form > textarea {
     margin-left: 30px;
   }
 
-  .works_det > div > button {
-    max-width: 327px;
-  }
-
-  .works_det > .det1 {
-    margin-top: 10px;
-    background-image: url("img/det1.png");
-    background-size: 327px 400px;
-  }
-
-  .works_det > .det1 > h5 {
+  .works_det > .det1 > h3 {
     display: none;
   }
 
@@ -597,10 +620,9 @@ footer div > form > textarea {
 
   .works_det > .det2 {
     background-size: 327px 400px;
-    background-image: url("img/det2.png");
   }
 
-  .works_det > .det2 > h5 {
+  .works_det > .det2 > h3 {
     margin-top: 136px;
   }
 
@@ -609,7 +631,6 @@ footer div > form > textarea {
   }
 
   .works_det > .det3 {
-    background-image: url("img/det3.png");
     background-size: 327px 400px;
   }
 
@@ -618,7 +639,7 @@ footer div > form > textarea {
     display: none;
   }
 
-  .works_det > .det3 > h5 {
+  .works_det > .det3 > h3 {
     margin-top: 140px;
   }
 
@@ -626,7 +647,7 @@ footer div > form > textarea {
     background-size: 327px 400px;
   }
 
-  .works_det > .det4 > h5 {
+  .works_det > .det4 > h3 {
     margin-top: 136px;
   }
 
@@ -641,20 +662,7 @@ footer div > form > textarea {
 
   .about_head {
     background-image: url("img/about-back-desk.png");
-    background-position: right 0 top 80px;
-  }
-
-  footer > div > h6 {
-    flex: 1 1 0;
-    text-align: left;
-    margin-left: 140px;
-    margin-right: 100px;
-    transition: transform 4s 3s;
-    transform: rotate(360deg);
-  }
-
-  .about_head > h6 {
-    margin-left: 30px;
+    background-position: right 0 top 75px;
   }
 
   .about_lang {
