@@ -24,12 +24,12 @@
   <body>
     <header>
       <nav>
-        <div class="toolbar">
+        <div class="toolbar" id="portfolio">
           <div>
-            <a href="">Ishmael</a>
+            <a href="" id="logo_name">Ishmael</a>
           </div>
           <div>
-            <button id="open_menu"><img src="img/union.png" alt="slider menu icon" /></button>
+            <button id="open_menu" onclick="openside_menu()"><img src="img/union.png" alt="slider menu icon" /></button>
             <ul>
               <li>Portfolio</li>
               <li>About</li>
@@ -39,11 +39,11 @@
           </div>
         </div>
         <div id="side_menu">
-          <button id="close_menu"><b>X</b></button>
+          <button id="close_menu" onclick="closesideMenu()"><b>X</b></button>
           <ul>
-            <li><a href='#'>Portfolio</a></li>
-            <li><a href='#'>About</a></li>
-            <li><a href='#'>Contact</a></li>
+            <li><a href='#portfolio' onclick="closesideMenu()">Portfolio</a></li>
+            <li><a href='#about' onclick="closesideMenu()">About</a></li>
+            <li><a href='#contact' onclick="closesideMenu()">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -225,7 +225,7 @@
           <button type="button">See Project</button>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about_head">
           <h2>About me</h2>
           <p>
@@ -268,7 +268,7 @@
         </div>
       </section>
       <footer>
-        <div>
+        <div id="contact">
           <p>
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
@@ -331,4 +331,5 @@
       </footer>
     </main>
   </body>
+  <script src="index.js"></script>
 </html>
