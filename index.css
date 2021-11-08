@@ -9,8 +9,10 @@ body {
 
 .toolbar {
   position: fixed;
+  z-index: 2;
   display: flex;
   width: 100vw;
+  top: 0;
   background-color: #3c3a39;
   margin: 0;
   padding: 0;
@@ -57,8 +59,10 @@ body {
 
 #side_menu {
   display: none;
+  position: fixed;
+  top: 92px;
+  z-index: 3;
   background-color: #3c3a39;
-  margin-bottom: 57px;
 }
 
 #close_menu {
@@ -515,6 +519,10 @@ textarea:valid {
     height: 60px;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  #open_menu {
+    display: none;
   }
 
   footer > div {
