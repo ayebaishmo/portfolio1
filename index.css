@@ -253,6 +253,118 @@ footer > div > ul {
   display: none;
 }
 
+.popup_background {
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #979493;
+  mix-blend-mode: multiply;
+}
+
+.projDet {
+  position: fixed;
+  z-index: 5;
+  top: 60px;
+  right: 16px;
+  bottom: 50px;
+  left: 16px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+}
+
+.close_popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 6;
+  width: 20px;
+  height: 20px;
+  font-size: 1.5rem;
+  top: 30px;
+  right: 30px;
+  padding: 4px;
+  background-color: transparent;
+  border: none;
+  color: #67798e;
+}
+
+.projDet h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 16px;
+}
+
+.projDet ul {
+  display: flex;
+  list-style: none;
+  margin: 22px 16px 24px 8px;
+  padding: 0;
+}
+
+.projDet li {
+  margin-left: 8px;
+}
+
+.projLanguages button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  background-color: #fff;
+  border: 1px solid #979493;
+  padding: 10px 12px;
+}
+
+.projDet > img {
+  margin: 0 16px;
+}
+
+.projDet p {
+  clear: both;
+  margin: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.see_buttons {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  margin: 0 16px 20px 16px;
+}
+
+.see_buttons button {
+  height: 100%;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: #ff6b00;
+}
+
+.see_buttons button :last-child {
+  margin-left: 19px;
+}
+
+.see_buttons img {
+  margin: 0 14px;
+}
+
 .works_head > div > div > ul {
   margin-left: -45px;
 }
