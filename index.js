@@ -1,17 +1,17 @@
-var side_menu = document.querySelector('#side_menu');
-var logo_name = document.querySelector('#logo_name');
-var open_menu = document.querySelector('#open_menu');
+const side_Menu = document.querySelector('#side_Menu');
+const logo_Name = document.querySelector('#logo_Name');
+var open_Menu = document.querySelector('#open_Menu');
 
-function openside_menu() {
-    side_menu.style.display = "block";
-    open_menu.style.display = "none";
-    logo_name.style.display = "none";
+function openSide_Menu() {
+  side_Menu.style.display = 'block';
+  open_Menu.style.display = 'none';
+  logo_Name.style.display = 'none';
 }
 
-function closesideMenu() {
-    side_menu.style.display = "none";
-    open_menu.style.display = "block";
-    logo_name.style.display = "block";
+function closeideMenu() {
+  side_Menu.style.display = 'none';
+  open_Menu.style.display = 'block';
+  logo_Name.style.display = 'block';
 }
 
 openside_menu();
