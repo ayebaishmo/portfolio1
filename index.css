@@ -57,6 +57,20 @@ body {
   }
 }
 
+footer > div > ul > li {
+  margin-left: 15px;
+}
+
+.about_lang > ul > li {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  margin-top: 20px;
+}
+
 .headline > div > ul > li {
   display: inline;
 }
@@ -84,10 +98,6 @@ body {
   border: none;
 }
 
-footer > div > ul > li {
-  margin-left: 15px;
-}
-
 .toolbar > div > ul {
   display: none;
 }
@@ -111,16 +121,6 @@ footer > div > ul > li {
   padding: 0;
 }
 
-.about_lang > ul > li {
-  list-style-type: none;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 43px;
-  color: #fff;
-  margin-top: 20px;
-}
-
 .works_det > div > ul > li {
   display: inline;
 }
@@ -128,7 +128,6 @@ footer > div > ul > li {
 .works_head > div > div > ul > li {
   display: inline;
 }
-
 
 #sideMenu li {
   padding-bottom: 15px;
