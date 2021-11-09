@@ -513,7 +513,7 @@ textarea:valid {
     justify-content: space-evenly;
   }
 
-  #openMenu {
+  #openMenux {
     display: none;
   }
 
@@ -524,7 +524,7 @@ textarea:valid {
   .toolbar > div {
     margin-block: 0;
   }
-  
+
   .about_lang > ul {
     flex-grow: 1;
   }
