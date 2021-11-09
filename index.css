@@ -129,12 +129,6 @@ footer > div > ul > li {
   display: inline;
 }
 
-.about_lang > ul > li:first-child {
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
 
 #sideMenu li {
   padding-bottom: 15px;
