@@ -106,6 +106,15 @@ footer > div > ul > li {
   margin-left: -45px;
 }
 
+footer > div > ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 #sideMenu > ul {
   clear: both;
   display: flex;
@@ -305,15 +314,6 @@ footer > div > p {
   font-size: 20px;
   line-height: 24px;
   color: #091e42;
-}
-
-footer > div > ul {
-  display: flex;
-  list-style-type: none;
-  padding-left: 0;
-  justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
 
 .about_head > button {
