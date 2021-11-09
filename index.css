@@ -27,7 +27,7 @@ body {
   align-items: center;
 }
 
-#open_Menu {
+#openMenu {
   background-color: #3c3a39;
   border: none;
   float: right;
@@ -57,7 +57,7 @@ body {
   }
 }
 
-#side_Menu {
+#sideMenu {
   display: block;
   position: fixed;
   top: 92px;
@@ -65,7 +65,7 @@ body {
   background-color: #3c3a39;
 }
 
-#close_menu {
+#closemenu {
   float: right;
   margin-right: 50px;
   margin-bottom: 34px;
@@ -75,7 +75,7 @@ body {
   border: none;
 }
 
-#side_Menu > ul {
+#sideMenu > ul {
   clear: both;
   display: flex;
   flex-direction: column;
@@ -91,14 +91,14 @@ body {
   padding: 0;
 }
 
-#side_Menu li {
+#sideMenu li {
   padding-bottom: 15px;
   border-bottom: 1px solid #6f6c6b;
   width: 95vw;
   margin: 0 24px;
 }
 
-#side_Menu a {
+#sideMenu a {
   color: #fff5e1;
   text-decoration: none;
 }
@@ -521,7 +521,7 @@ textarea:valid {
     justify-content: space-evenly;
   }
 
-  #open_Menu {
+  #openMenu {
     display: none;
   }
 
