@@ -8,8 +8,12 @@ function openSideMenu() {
   logoName.style.display = 'none';
 }
 
+openSideMenu();
+
 function closeSideMenu() {
   sideMenu.style.display = 'none';
   openMenu.style.display = 'block';
   logoName.style.display = 'block';
 }
+
+closeSideMenu();

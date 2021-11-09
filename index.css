@@ -75,6 +75,15 @@ footer > div > ul > li {
   display: inline;
 }
 
+footer > div > ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .works_det > div > ul {
   margin-top: -10px;
   margin-left: -25px;
@@ -104,15 +113,6 @@ footer > div > ul > li {
 
 .works_head > div > div > ul {
   margin-left: -45px;
-}
-
-footer > div > ul {
-  display: flex;
-  list-style-type: none;
-  padding-left: 0;
-  justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
 
 #sideMenu > ul {
