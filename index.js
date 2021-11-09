@@ -13,3 +13,6 @@ function closesideMenu() {
     open_menu.style.display = "block";
     logo_name.style.display = "block";
 }
+
+openside_menu();
+closesideMenu();

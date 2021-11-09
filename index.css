@@ -58,7 +58,7 @@ body {
 }
 
 #side_menu {
-  display: none;
+  display: block;
   position: fixed;
   top: 92px;
   z-index: 3;
@@ -67,7 +67,7 @@ body {
 
 #close_menu {
   float: right;
-  margin-right: 38px;
+  margin-right: 50px;
   margin-bottom: 34px;
   background-color: #3c3a39;
   color: #67798e;
