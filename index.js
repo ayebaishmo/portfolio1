@@ -18,15 +18,37 @@ function closeSideMenu() {
 
 closeSideMenu();
 
+const windowSize = window.matchMedia('(min-width: 1024px)');
 
 const project = [
   {
-    name: 'Profesional Art Printing Data 1',
+    name: 'Profesional Art Printing Data',
+    deskname: 'Keeping track of hundreds  of components website',
     desc: 'A daily selection of privately personalized reads; no accounts or sign- ups required.has been the industrys standard',
     langs : ['Html', 'Bootstrap', 'Ruby'],
-    img: "url('img/works_card.png')",
+    img: 'img/works_card.png',
+    deskImg: 'img/det1.png',
     liveLink: '#',
     srcLink: '#',
+    popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
+    popImgdesk: "<img src='img/Snapshoot-Portfolio2.png' alt='Project Image' />",
+    popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to
+            make a type specimen book.It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essent`,
+  },
+  {
+    name: 'Profesional Art Printing Data',
+    deskname: 'Keeping track of hundreds  of components website',
+    desc: 'A daily selection of privately personalized reads; no accounts or sign- ups required.has been the industrys standard',
+    langs : ['Html', 'Bootstrap', 'Ruby'],
+    img: 'img/works_card.png',
+    deskImg: 'img/det2.png',
+    liveLink: '#',
+    srcLink: '#',
+    popImgdesk: "<img src='img/Snapshoot-Portfolio2.png' alt='Project Image' />",
     popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
     popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard
@@ -36,13 +58,35 @@ const project = [
         but also the leap into electronic typesetting, remaining essent`,
   },
   {
-    name: 'Profesional Art Printing Data 2',
+    name: 'Profesional Art Printing Data',
+    deskname: 'Keeping track of hundreds  of components website',
     desc: 'A daily selection of privately personalized reads; no accounts or sign- ups required.has been the industrys standard',
     langs : ['Html', 'Bootstrap', 'Ruby'],
-    img: "url('img/works_card.png')",
+    img: 'img/works_card.png',
+    deskImg: 'img/det3.png',
     liveLink: '#',
     srcLink: '#',
     popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
+    popImgdesk: "<img src='img/Snapshoot-Portfolio2.png' alt='Project Image' />",
+    popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to
+            make a type specimen book.It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essent`,
+    cardb: 'det3'
+  },
+  {
+    name: 'Profesional Art Printing Data',
+    deskname: 'Keeping track of hundreds  of components website',
+    desc: 'A daily selection of privately personalized reads; no accounts or sign- ups required.has been the industrys standard',
+    langs : ['Html', 'Bootstrap', 'Ruby'],
+    img: 'img/works_card.png',
+    deskImg: 'img/det1.png',
+    liveLink: '#',
+    srcLink: '#',
+    popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
+    popImgdesk: "<img src='img/Snapshoot-Portfolio2.png' alt='Project Image' />",
     popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an unknown
@@ -51,13 +95,16 @@ const project = [
         but also the leap into electronic typesetting, remaining essent`,
   },
   {
-    name: 'Profesional Art Printing Data 3',
+    name: 'Profesional Art Printing Data',
+    deskname: 'Keeping track of hundreds  of components website',
     desc: 'A daily selection of privately personalized reads; no accounts or sign- ups required.has been the industrys standard',
     langs : ['Html', 'Bootstrap', 'Ruby'],
-    img: "url('img/works_card.png')",
+    img: 'img/works_card.png',
+    deskImg: 'img/det2.png',
     liveLink: '#',
     srcLink: '#',
     popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
+    popImgdesk: "<img src='img/Snapshoot-Portfolio2.png' alt='Project Image' />",
     popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an unknown
@@ -66,43 +113,16 @@ const project = [
         but also the leap into electronic typesetting, remaining essent`,
   },
   {
-    name: 'Profesional Art Printing Data 4',
+    name: 'Profesional Art Printing Data',
+    deskname: 'Keeping track of hundreds  of components website',
     desc: 'A daily selection of privately personalized reads; no accounts or sign- ups required.has been the industrys standard',
     langs : ['Html', 'Bootstrap', 'Ruby'],
-    img: "url('img/works_card.png')",
+    img: 'img/works_card.png',
+    deskImg: 'img/det3.png',
     liveLink: '#',
     srcLink: '#',
     popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
-    popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to
-            make a type specimen book.It has survived not only five centuries,
-        but also the leap into electronic typesetting, remaining essent`,
-  },
-  {
-    name: 'Profesional Art Printing Data 5',
-    desc: 'A daily selection of privately personalized reads; no accounts or sign- ups required.has been the industrys standard',
-    langs : ['Html', 'Bootstrap', 'Ruby'],
-    img: "url('img/works_card.png')",
-    liveLink: '#',
-    srcLink: '#',
-    popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
-    popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to
-            make a type specimen book.It has survived not only five centuries,
-        but also the leap into electronic typesetting, remaining essent`,
-  },
-  {
-    name: 'Profesional Art Printing Data 6',
-    desc: 'A daily selection of privately personalized reads; no accounts or sign- ups required.has been the industrys standard',
-    langs : ['Html', 'Bootstrap', 'Ruby'],
-    img: "url('img/works_card.png')",
-    liveLink: '#',
-    srcLink: '#',
-    popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
+    popImgdesk: "<img src='img/Snapshoot-Portfolio2.png' alt='Project Image' />",
     popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an unknown
@@ -119,7 +139,6 @@ for (let i = 0; i < project.length; i += 1) {
   //create the card 
   let carddiv = document.createElement('div');
   projCtn.appendChild(carddiv);
-  carddiv.className = 'det1';
   
   //create the title
   let projTitle = document.createElement('h3');
@@ -127,7 +146,15 @@ for (let i = 0; i < project.length; i += 1) {
   projTitle.textContent = project[i].name;
   
   //create backgroundpicture
-  carddiv.style.backgroundImage = "url('img/works_card.png')";
+    let pic = document.createElement('picture');
+    carddiv.appendChild(pic);
+    let backImg = document.createElement('img');
+    pic.appendChild(backImg);
+    if (windowSize.matches) { 
+    backImg.setAttribute("src", project[i].img);
+    } else {
+    backImg.setAttribute("src", project[i].deskImg);
+    }
   
   //create paragraph
   let para = document.createElement('p');
@@ -155,6 +182,7 @@ for (let i = 0; i < project.length; i += 1) {
   bigButton.className = 'openPopupButton';
 }
 
+
 let id = 0
 const popupWrapper = document.createElement('div')
 projCtn.appendChild(popupWrapper)
@@ -178,7 +206,11 @@ function createPopup(id = 0) {
   //popup heading 
   let popHead = document.createElement('h4');
   card.appendChild(popHead);
-  popHead.textContent = project[id].name;
+  if (windowSize.matches) {
+      popHead.textContent = project[id].name;
+} else {
+    popHead.textContent = project[id].deskname;
+    }
   
   //popclosebutton
   let popupButton = document.createElement('button');
@@ -203,19 +235,29 @@ function createPopup(id = 0) {
   }
   
   //popImg
+  let sortDiv = document.createElement('div');
+  sortDiv.className =  'sortDiv';
+  card.appendChild(sortDiv);
   let popupImg = document.createElement('div');
   popupImg.className = 'imgDiv'
-  card.appendChild(popupImg);
-  popupImg.innerHTML = project[id].popImg;
+  sortDiv.appendChild(popupImg);
+  if (windowSize.matches) {
+      popupImg.innerHTML = project[id].popImg;
+} else {
+    popupImg.innerHTML = project[id].popImgdesk;
+  }
   
   //poppara
+  let divSort = document.createElement('div');
+  divSort.className = 'divSort';
+  sortDiv.appendChild(divSort);
   let popupPara = document.createElement('p');
-  card.appendChild(popupPara);
+  divSort.appendChild(popupPara);
   popupPara.textContent = project[id].popPara
   
   //poplastButtons
   let ulButton = document.createElement('ul');
-  card.appendChild(ulButton);
+  divSort.appendChild(ulButton);
   ulButton.className = 'see_buttons';
 
   //Live
@@ -244,9 +286,3 @@ for (let k = 0; k < project.length; k += 1) {
 });
 }
 
-// const openPopupArray = document.getElementsByClassName(openPopupButton);
-// for (let p = 0; p < openPopupArray.length; p += 1) {
-//   openPopupArray[p].addEventListener('click', getid(){
-//     createPopup(k);
-//   });
-// }

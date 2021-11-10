@@ -263,7 +263,7 @@ footer > div > p {
   margin-right: 30px;
 }
 
-.works_det > div > img,
+.works_det > img,
 .works_det > div > picture,
 .works_det > div > picture > img {
   position: absolute;
@@ -271,6 +271,7 @@ footer > div > p {
   z-index: -1;
   width: 100%;
   height: auto;
+  background-repeat: no-repeat;
 }
 
 .works_head > div > div > img {
@@ -328,11 +329,13 @@ footer > div > p {
 }
 
 .projDet {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   z-index: 5;
   top: 60px;
   right: 16px;
-  bottom: 50px;
+  bottom: 0;
   left: 16px;
   background-color: #fff;
   border: 1px solid #dfe1e6;
@@ -387,7 +390,9 @@ footer > div > p {
 }
 
 .imgDiv {
-  margin: 0 16px;
+  margin: 0 5px;
+  left: 32px;
+  right: 32px;
 }
 
 .projDet p {
@@ -504,6 +509,7 @@ footer > div > p {
   gap: 24px;
   align-content: center;
   justify-content: center;
+  background-repeat: no-repeat;
 }
 
 .works_det > div {
@@ -713,6 +719,22 @@ textarea:valid {
     margin-bottom: 10px;
   }
 
+  .projDet {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sortDiv {
+    display: flex;
+  }
+
+  .divSort {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
   .works_head > .med_works {
     flex-direction: row;
     margin-top: -20px;
@@ -760,55 +782,6 @@ textarea:valid {
 
   .about_head > button {
     margin-left: 30px;
-  }
-
-  .works_det > .det1 > h3 {
-    display: none;
-  }
-
-  .works_det > .det1 > ul {
-    display: none;
-  }
-
-  .works_det > .det1 > button {
-    margin-top: 373px;
-  }
-
-  .works_det > .det2 {
-    background-size: 327px 400px;
-  }
-
-  .works_det > .det2 > h3 {
-    margin-top: 136px;
-  }
-
-  .works_det > .det2 > button {
-    display: none;
-  }
-
-  .works_det > .det3 {
-    background-size: 327px 400px;
-  }
-
-  .works_det > .det3 > button {
-    background-size: 327px 400px;
-    display: none;
-  }
-
-  .works_det > .det3 > h3 {
-    margin-top: 140px;
-  }
-
-  .works_det .det4 {
-    background-size: 327px 400px;
-  }
-
-  .works_det > .det4 > h3 {
-    margin-top: 136px;
-  }
-
-  .works_det > .det4 > button {
-    display: none;
   }
 
   .about {
