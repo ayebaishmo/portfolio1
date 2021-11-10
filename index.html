@@ -1,350 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ishmael's Developer Portfolio</title>
-    <link rel="stylesheet" href="index.css" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        window.dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "GA_MEASUREMENT_ID");
-    </script>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="toolbar">
-          <div>
-            <a href="">Ishmael</a>
-          </div>
-          <div>
-            <img src="img/union.png" alt="slider menu icon" />
-            <ul>
-              <li>Portfolio</li>
-              <li>About</li>
-              <li>Contact</li>
-              <li><img src="img/Letter.png" alt="message me icon" /></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="headline">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ishmael's Developer Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "GA_MEASUREMENT_ID");
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="toolbar">
         <div>
-          <h1>
-            Hey There. <br />
-            I’m Alex
-          </h1>
-          <h2>I’m a Software Developer</h2>
-          <p>
-            I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hestiate to contact me.
-          </p>
+          <a href="" id="logoName">Ishmael</a>
+        </div>
+        <div>
+          <button type="button" id="openMenu" onclick="openSideMenu()"><img id="openMenux" src="img/union.png"
+              alt="slider menu icon" /></button>
           <ul>
-            <li><img src="img/GitHub.png" alt="ishmael's Github logo" /></li>
-            <li>
-              <img src="img/Linkedin.png" alt="ishmael's Linked in logo" />
-            </li>
-            <li>
-              <img src="img/Angelist.png" alt="ishmael's Angelist logo" />
-            </li>
-            <li><img src="img/Twitter.png" alt="ishmael's Twitter logo" /></li>
-            <li><img src="img/Medium.png" alt="ishmael's Medium logo" /></li>
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li><img src="img/Letter.png" alt="message me icon" /></li>
           </ul>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="works_head">
-        <div class="med_works">
-          <h2>My Recent Works</h2>
-          <hr />
-        </div>
-        <div class="medhead_det">
-          <div>
-            <img src="img/workhead_card.png" alt="project 1 image" />
-          </div>
-          <div class="multi_det">
-            <h3>Multi-Post Stories</h3>
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <ul>
-              <li><button type="button">css</button></li>
-              <li><button type="button">html</button></li>
-              <li><button type="button">bootstrap</button></li>
-              <li><button type="button">Ruby</button></li>
-            </ul>
-            <button type="button">See Project</button>
-          </div>
-        </div>
-      </section>
-      <section class="works_det">
-        <div class="det1">
-          <h3>
-            Profesional Art <br />
-            Printing Data
-          </h3>
-          <picture>
-            <source media="(min-width: 900px)" srcset="img/det1.png" />
-            <source media="(max-width: 900px)" srcset="img/works_card.png" />
-            <img src="img/works_card.png" alt="last project" />
-          </picture>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-          <ul>
-            <li><button type="button">html</button></li>
-            <li><button type="button">bootstrap</button></li>
-            <li><button type="button">Ruby</button></li>
-          </ul>
-          <button type="button">See Project</button>
-        </div>
-        <div class="det2">
-          <h3>
-            Profesional Art <br />
-            Printing Data
-          </h3>
-          <picture>
-            <source media="(min-width: 900px)" srcset="img/det2.png" />
-            <source media="(max-width: 900px)" srcset="img/works_card.png" />
-            <img src="img/works_card.png" alt="last project" />
-          </picture>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-          <ul>
-            <li><button type="button">html</button></li>
-            <li><button type="button">bootstrap</button></li>
-            <li><button type="button">Ruby</button></li>
-          </ul>
-          <button type="button">See Project</button>
-        </div>
-        <div class="det3">
-          <h3>
-            Profesional Art <br />
-            Printing Data
-          </h3>
-          <picture>
-            <source media="(min-width: 900px)" srcset="img/det3.png" />
-            <source media="(max-width: 900px)" srcset="img/works_card.png" />
-            <img src="img/works_card.png" alt="last project" />
-          </picture>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-          <ul>
-            <li><button type="button">html</button></li>
-            <li><button type="button">bootstrap</button></li>
-            <li><button type="button">Ruby</button></li>
-          </ul>
-          <button type="button">See Project</button>
-        </div>
-        <div class="det4">
-          <h3>
-            Profesional Art <br />
-            Printing Data
-          </h3>
-          <img src="img/works_card.png" alt="last project" />
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-          <ul>
-            <li><button type="button">html</button></li>
-            <li><button type="button">bootstrap</button></li>
-            <li><button type="button">Ruby</button></li>
-          </ul>
-          <button type="button">See Project</button>
-        </div>
-        <div class="det2">
-          <h3>
-            Profesional Art <br />
-            Printing Data
-          </h3>
-          <picture>
-            <source media="(min-width: 900px)" srcset="img/det2.png" />
-            <source media="(max-width: 900px)" srcset="img/works_card.png" />
-            <img src="img/works_card.png" alt="last project" />
-          </picture>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-          <ul>
-            <li><button type="button">html</button></li>
-            <li><button type="button">bootstrap</button></li>
-            <li><button type="button">Ruby</button></li>
-          </ul>
-          <button type="button">See Project</button>
-        </div>
-        <div class="det3">
-          <h3>
-            Profesional Art <br />
-            Printing Data
-          </h3>
-          <picture>
-            <source media="(min-width: 900px)" srcset="img/det3.png" />
-            <source media="(max-width: 900px)" srcset="img/works_card.png" />
-            <img src="img/works_card.png" alt="last project" />
-          </picture>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-          <ul>
-            <li><button type="button">html</button></li>
-            <li><button type="button">bootstrap</button></li>
-            <li><button type="button">Ruby</button></li>
-          </ul>
-          <button type="button">See Project</button>
-        </div>
-        <div class="projPopup">
-          <div class="popup_background"></div>
-          <div class="projDet">
-            <h4>Multi Post Stories</h4>
-            <button type="button" class="close_popup">X</button>
-            <ul class="projLanguages">
-              <li><button>Html</button></li>
-              <li><button>Bootstrap</button></li>
-              <li><button>Ruby on rails</button></li>
-            </ul>
-            <img src="img/Snapshoot Portfolio.png" alt="Project Image">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown 
-              printer took a galley of type and scrambled it to 
-              make a type specimen book. It has survived not only five centuries, 
-              but also the leap into electronic typesetting, remaining essent
-            </p>
-            <ul class="see_buttons">
-              <li><button>See Live <img src="img/liveIcon.png" alt=""></button></li>
-              <li><button>See Source <img src="img/GitHub.png" alt=""></button></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section class="about">
-        <div class="about_head">
-          <h2>About me</h2>
-          <p>
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.
-          </p>
-          <button type="button">Get My Resume</button>
-          <hr />
-        </div>
-        <div class="about_lang">
-          <ul>
-            <li>
-              <img src="img/fig1.png" alt="Languange list icon" /> Language
-            </li>
-            <li>Ruby</li>
-            <li>Javascript</li>
-            <li>Css</li>
-            <li>Html</li>
-          </ul>
-          <ul>
-            <li>
-              <img src="img/fig2.png" alt="Frameworks list icon" /> Frameworks
-            </li>
-            <li>Bootstrap</li>
-            <li>Ruby on Rails</li>
-            <li>RSPec</li>
-            <li>CapyBara</li>
-            <li>Selinium</li>
-          </ul>
-          <ul>
-            <li><img src="img/fig3.png" alt="Skills list icon" /> Skills</li>
-            <li>Codekit</li>
-            <li>GitHub</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
-            <li>Terminal</li>
-          </ul>
-        </div>
-      </section>
-      <footer>
+      <div id="sideMenu">
+        <button type="button" id="closeMenu" onclick="closeSideMenu()"><b>X</b></button>
+        <ul>
+          <li><a href='#portfolio' onclick="closeSideMenu()">Portfolio</a></li>
+          <li><a href='#about' onclick="closeSideMenu()">About</a></li>
+          <li><a href='#contact' onclick="closeSideMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="headline" id="portfolio">
+      <div>
+        <h1>
+          Hey There. <br />
+          I’m Alex
+        </h1>
+        <h2>I’m a Software Developer</h2>
+        <p>
+          I can help you build a product , feature or website Look through
+          some of my work and experience! If you like what you see and have a
+          project you need coded, don’t hestiate to contact me.
+        </p>
+        <ul>
+          <li><img src="img/GitHub.png" alt="ishmael's Github logo" /></li>
+          <li>
+            <img src="img/Linkedin.png" alt="ishmael's Linked in logo" />
+          </li>
+          <li>
+            <img src="img/Angelist.png" alt="ishmael's Angelist logo" />
+          </li>
+          <li><img src="img/Twitter.png" alt="ishmael's Twitter logo" /></li>
+          <li><img src="img/Medium.png" alt="ishmael's Medium logo" /></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="works_head">
+      <div class="med_works">
+        <h2>My Recent Works</h2>
+        <hr />
+      </div>
+      <div class="medhead_det">
         <div>
-          <p>
-            I'm always interested in hearing about new projects, so if you'd
-            like to chat please get in touch.
-          </p>
-          <form action="https://formspree.io/f/mnqlyrpg" method="post">
-            <input
-              type="text"
-              id="username"
-              name="username"
-              placeholder="Full name"
-              maxlength="30"
-              required
-            />
-            <input
-              type="email"
-              id="useremail"
-              name="useremail"
-              placeholder="Email address"
-              required
-            />
-            <textarea
-              name="message"
-              id="message"
-              cols="10"
-              rows="3"
-              maxlength="500"
-              placeholder="Enter text here"
-              required
-            ></textarea>
-            <button type="submit" class="btn">Get in touch</button>
-          </form>
+          <img src="img/workhead_card.png" alt="project 1 image" />
         </div>
-        <hr class="footer_hr" />
-        <div class="social_icon_d">
+        <div class="multi_det">
+          <h3>Multi-Post Stories</h3>
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a standard
+            dummy text.
+          </p>
           <ul>
-            <li>
-              <img src="img/Github_d.png" alt="Ishmael's Github footer icon" />
-            </li>
-            <li>
-              <img
-                src="img/linkedin_d.png"
-                alt="Ishmael's linkedin footer icon"
-              />
-            </li>
-            <li>
-              <img src="img/union_d.png" alt="Ishmael's Angelist footer icon" />
-            </li>
-            <li>
-              <img
-                src="img/twitter_d.png"
-                alt="Ishmael's Twitter footer icon"
-              />
-            </li>
-            <li>
-              <img src="img/medium_d.png" alt="Ishmael's medium footer icon" />
-            </li>
+            <li><button type="button">css</button></li>
+            <li><button type="button">html</button></li>
+            <li><button type="button">bootstrap</button></li>
+            <li><button type="button">Ruby</button></li>
+          </ul>
+          <button type="button">See Project</button>
+        </div>
+      </div>
+    </section>
+    <section class="works_det">
+      <div class="det1">
+        <h3>
+          Profesional Art <br />
+          Printing Data
+        </h3>
+        <picture>
+          <source media="(min-width: 900px)" srcset="img/det1.png" />
+          <source media="(max-width: 900px)" srcset="img/works_card.png" />
+          <img src="img/works_card.png" alt="last project" />
+        </picture>
+        <p>
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard
+        </p>
+        <ul>
+          <li><button type="button">html</button></li>
+          <li><button type="button">bootstrap</button></li>
+          <li><button type="button">Ruby</button></li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="det2">
+        <h3>
+          Profesional Art <br />
+          Printing Data
+        </h3>
+        <picture>
+          <source media="(min-width: 900px)" srcset="img/det2.png" />
+          <source media="(max-width: 900px)" srcset="img/works_card.png" />
+          <img src="img/works_card.png" alt="last project" />
+        </picture>
+        <p>
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard
+        </p>
+        <ul>
+          <li><button type="button">html</button></li>
+          <li><button type="button">bootstrap</button></li>
+          <li><button type="button">Ruby</button></li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="det3">
+        <h3>
+          Profesional Art <br />
+          Printing Data
+        </h3>
+        <picture>
+          <source media="(min-width: 900px)" srcset="img/det3.png" />
+          <source media="(max-width: 900px)" srcset="img/works_card.png" />
+          <img src="img/works_card.png" alt="last project" />
+        </picture>
+        <p>
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard
+        </p>
+        <ul>
+          <li><button type="button">html</button></li>
+          <li><button type="button">bootstrap</button></li>
+          <li><button type="button">Ruby</button></li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="det4">
+        <h3>
+          Profesional Art <br />
+          Printing Data
+        </h3>
+        <img src="img/works_card.png" alt="last project" />
+        <p>
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard
+        </p>
+        <ul>
+          <li><button type="button">html</button></li>
+          <li><button type="button">bootstrap</button></li>
+          <li><button type="button">Ruby</button></li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="det2">
+        <h3>
+          Profesional Art <br />
+          Printing Data
+        </h3>
+        <picture>
+          <source media="(min-width: 900px)" srcset="img/det2.png" />
+          <source media="(max-width: 900px)" srcset="img/works_card.png" />
+          <img src="img/works_card.png" alt="last project" />
+        </picture>
+        <p>
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard
+        </p>
+        <ul>
+          <li><button type="button">html</button></li>
+          <li><button type="button">bootstrap</button></li>
+          <li><button type="button">Ruby</button></li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="det3">
+        <h3>
+          Profesional Art <br />
+          Printing Data
+        </h3>
+        <picture>
+          <source media="(min-width: 900px)" srcset="img/det3.png" />
+          <source media="(max-width: 900px)" srcset="img/works_card.png" />
+          <img src="img/works_card.png" alt="last project" />
+        </picture>
+        <p>
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard
+        </p>
+        <ul>
+          <li><button type="button">html</button></li>
+          <li><button type="button">bootstrap</button></li>
+          <li><button type="button">Ruby</button></li>
+        </ul>
+        <button type="button">See Project</button>
+      </div>
+      <div class="projPopup">
+        <div class="popup_background"></div>
+        <div class="projDet">
+          <h4>Multi Post Stories</h4>
+          <button type="button" class="close_popup">X</button>
+          <ul class="projLanguages">
+            <li><button>Html</button></li>
+            <li><button>Bootstrap</button></li>
+            <li><button>Ruby on rails</button></li>
+          </ul>
+          <img src="img/Snapshoot Portfolio.png" alt="Project Image">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting, remaining essent
+          </p>
+          <ul class="see_buttons">
+            <li><button>See Live <img src="img/liveIcon.png" alt=""></button></li>
+            <li><button>See Source <img src="img/GitHub.png" alt=""></button></li>
           </ul>
         </div>
-        <hr class="footer_hr_bottom" />
-      </footer>
-    </main>
-  </body>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about_head">
+        <h2>About me</h2>
+        <p>
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don’t
+          hestiate to contact me.
+        </p>
+        <button type="button">Get My Resume</button>
+        <hr />
+      </div>
+      <div class="about_lang">
+        <ul>
+          <li>
+            <img src="img/fig1.png" alt="Languange list icon" /> Language
+          </li>
+          <li>Ruby</li>
+          <li>Javascript</li>
+          <li>Css</li>
+          <li>Html</li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/fig2.png" alt="Frameworks list icon" /> Frameworks
+          </li>
+          <li>Bootstrap</li>
+          <li>Ruby on Rails</li>
+          <li>RSPec</li>
+          <li>CapyBara</li>
+          <li>Selinium</li>
+        </ul>
+        <ul>
+          <li><img src="img/fig3.png" alt="Skills list icon" /> Skills</li>
+          <li>Codekit</li>
+          <li>GitHub</li>
+          <li>Codepen</li>
+          <li>Gitlab</li>
+          <li>Terminal</li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <div id="contact">
+        <p>
+          I'm always interested in hearing about new projects, so if you'd
+          like to chat please get in touch.
+        </p>
+        <form action="https://formspree.io/f/mnqlyrpg" method="post">
+          <input type="text" id="username" name="username" placeholder="Full name" maxlength="30" required />
+          <input type="email" id="useremail" name="useremail" placeholder="Email address" required />
+          <textarea name="message" id="message" cols="10" rows="3" maxlength="500" placeholder="Enter text here"
+            required></textarea>
+          <button type="submit" class="btn">Get in touch</button>
+        </form>
+      </div>
+      <hr class="footer_hr" />
+      <div class="social_icon_d">
+        <ul>
+          <li>
+            <img src="img/Github_d.png" alt="Ishmael's Github footer icon" />
+          </li>
+          <li>
+            <img src="img/linkedin_d.png" alt="Ishmael's linkedin footer icon" />
+          </li>
+          <li>
+            <img src="img/union_d.png" alt="Ishmael's Angelist footer icon" />
+          </li>
+          <li>
+            <img src="img/twitter_d.png" alt="Ishmael's Twitter footer icon" />
+          </li>
+          <li>
+            <img src="img/medium_d.png" alt="Ishmael's medium footer icon" />
+          </li>
+        </ul>
+      </div>
+      <hr class="footer_hr_bottom" />
+    </footer>
+  </main>
+  <script src="index.js"></script>
+</body>
+
 </html>
