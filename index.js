@@ -27,7 +27,7 @@ const project = [
     img: "url('img/works_card.png')",
     liveLink: '#',
     srcLink: '#',
-    popImg: 'img/Snapshoot-Portfolio.png',
+    popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
     popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an unknown
@@ -42,7 +42,7 @@ const project = [
     img: "url('img/works_card.png')",
     liveLink: '#',
     srcLink: '#',
-    popImg: 'img/Snapshoot-Portfolio.png',
+    popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
     popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an unknown
@@ -57,7 +57,7 @@ const project = [
     img: "url('img/works_card.png')",
     liveLink: '#',
     srcLink: '#',
-    popImg: 'img/Snapshoot-Portfolio.png',
+    popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
     popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an unknown
@@ -72,7 +72,7 @@ const project = [
     img: "url('img/works_card.png')",
     liveLink: '#',
     srcLink: '#',
-    popImg: 'img/Snapshoot-Portfolio.png',
+    popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
     popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an unknown
@@ -87,7 +87,7 @@ const project = [
     img: "url('img/works_card.png')",
     liveLink: '#',
     srcLink: '#',
-    popImg: 'img/Snapshoot-Portfolio.png',
+    popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
     popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an unknown
@@ -102,7 +102,7 @@ const project = [
     img: "url('img/works_card.png')",
     liveLink: '#',
     srcLink: '#',
-    popImg: 'img/Snapshoot-Portfolio.png',
+    popImg: "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />",
     popPara: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an unknown
@@ -203,10 +203,10 @@ function createPopup(id = 0) {
   }
   
   //popImg
-  let popImg = document.createElement('div');
-  popImg.className = 'imgDiv'
-  card.appendChild(popImg);
-  popImg.innerHTML = "<img src='img/Snapshoot-Portfolio.png' alt='Project Image' />";
+  let popupImg = document.createElement('div');
+  popupImg.className = 'imgDiv'
+  card.appendChild(popupImg);
+  popupImg.innerHTML = project[id].popImg;
   
   //poppara
   let popupPara = document.createElement('p');
