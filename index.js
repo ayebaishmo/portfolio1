@@ -134,27 +134,28 @@ const project = [
 const projCtn = document.getElementById('worksDet');
 
 for (let i = 0; i < project.length; i += 1) {
-  // create the card 
-  let carddiv = document.createElement('div');
+  // create the card
+  const carddiv = document.createElement('div');
   projCtn.appendChild(carddiv);
-  
+
   // create the title
-  let projTitle = document.createElement('h3');
+  const projTitle = document.createElement('h3');
   carddiv.appendChild(projTitle);
   projTitle.textContent = project[i].name;
-  
+
   // create backgroundpicture
-    let pic = document.createElement('picture');
-    carddiv.appendChild(pic);
-    let backImg = document.createElement('img');
-    pic.appendChild(backImg);
-    if (windowSize.matches) { 
-      backImg.setAttribute("src", project[i].deskImg);
-    } else {
-      backImg.setAttribute("src", project[i].img);
-      backImg.removeAttribute("src", project[i].deskImg);
+  const pic = document.createElement('picture');
+  carddiv.appendChild(pic);
+  const backImg = document.createElement('img');
+  pic.appendChild(backImg);
+  if (windowSize.matches) 
+    {
+      backImg.setAttribute('src', project[i].deskImg);
+    } else 
+    {
+      backImg.setAttribute('src', project[i].img);
+      backImg.removeAttribute('src', project[i].deskImg);
     }
-  
   // create paragraph
   let para = document.createElement('p');
   carddiv.appendChild(para);
