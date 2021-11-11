@@ -281,3 +281,11 @@ for (let k = 0; k < project.length; k += 1) {
     createPopup(k);
   });
 }
+
+const form = document.querySelector('form');
+const mail = document.getElementById('useremail');
+const errorMessage = document.createElement(small);
+
+function checkCase(input) {
+  return /[A-Z]/.test(input);
+}
