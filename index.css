@@ -61,6 +61,10 @@ footer > div > ul > li {
   margin-left: 15px;
 }
 
+.projDet li {
+  margin-left: 8px;
+}
+
 .about_lang > ul > li {
   list-style-type: none;
   font-style: normal;
@@ -82,6 +86,13 @@ footer > div > ul {
   justify-content: center;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.projDet ul {
+  display: flex;
+  list-style: none;
+  margin: 22px 16px 24px 8px;
+  padding: 0;
 }
 
 .works_det > div > ul {
@@ -214,6 +225,16 @@ footer > div > p {
   line-height: 24px;
   color: #f4f5f7;
   margin-top: 24px;
+}
+
+.projDet p {
+  clear: both;
+  margin: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .headline > div > p {
@@ -367,17 +388,6 @@ footer > div > p {
   margin: 16px;
 }
 
-.projDet ul {
-  display: flex;
-  list-style: none;
-  margin: 22px 16px 24px 8px;
-  padding: 0;
-}
-
-.projDet li {
-  margin-left: 8px;
-}
-
 .projLanguages button {
   font-style: normal;
   font-weight: 600;
@@ -395,19 +405,7 @@ footer > div > p {
   right: 32px;
 }
 
-.projDet p {
-  clear: both;
-  margin: 16px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-}
-
 .see_buttons {
-  /* display: flex; */
-  /* justify-content: space-between; */
   margin: 0 16px 20px 16px;
 }
 
@@ -432,6 +430,7 @@ footer > div > p {
 .see_buttons img {
   margin: 0 14px;
 }
+
 .about_head > button {
   width: 150px;
   height: 48px;
