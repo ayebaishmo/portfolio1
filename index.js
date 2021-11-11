@@ -152,7 +152,6 @@ for (let i = 0; i < project.length; i += 1) {
     backImg.setAttribute('src', project[i].deskImg);
   } else {
     backImg.setAttribute('src', project[i].img);
-    backImg.removeAttribute('src', project[i].deskImg);
   }
   // create paragraph
   const para = document.createElement('p');
@@ -277,7 +276,7 @@ function createPopup(id = 0) {
 
 for (let k = 0; k < project.length; k += 1) {
   const openPopupId = document.getElementById(k.toString());
-  openPopupId.addEventListener('click', function pop() {
+  openPopupId.addEventListener('click', ()=> {
     createPopup(k);
   });
 }
