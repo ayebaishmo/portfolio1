@@ -191,11 +191,12 @@ function createPopup(id = 0) {
   const popBack = document.createElement('div');
   popupWrapper.appendChild(popBack);
   popBack.className = 'projPopup';
-
+  
   // create background (surrounds card)
   const popBackx = document.createElement('div');
   popBack.appendChild(popBackx);
   popBackx.className = 'popup_background';
+  popBackx.addEventListener('click', closePopup);
 
   // popup card
   const card = document.createElement('div');
