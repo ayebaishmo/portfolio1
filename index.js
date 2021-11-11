@@ -285,4 +285,3 @@ for (let k = 0; k < project.length; k += 1) {
     createPopup(k);
 });
 }
-
