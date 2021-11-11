@@ -276,7 +276,7 @@ function createPopup(id = 0) {
 
 for (let k = 0; k < project.length; k += 1) {
   const openPopupId = document.getElementById(k.toString());
-  openPopupId.addEventListener('click', ()=> {
+  openPopupId.addEventListener('click', () => {
     createPopup(k);
   });
 }
