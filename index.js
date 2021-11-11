@@ -303,3 +303,14 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+const userName = form.elements['username'];
+const userEmail = form.elements['usermail'];
+const userMsg = form.elements['message'];
+
+function  formData () = {
+  name: userName.value.trim(),
+  mail: userEmail.value.trim(),
+  nmsg: userMsg.value.trim(),
+};
+
