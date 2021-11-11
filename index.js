@@ -315,15 +315,15 @@ function formData() {
     msg: userMsg.value.trim(),
   };
 
-  const jsonData = JSON.stringify(formData);
+  var jsonData = JSON.stringify(formData);
   localStorage.setItem('formData', jsonData);
 }
 
 form.addEventListener('change', formData);
 
 function getData() {
+  const savedData = JSON.parse(localStorage.getItem('formData'));
   if (localStorage.getItem('formData') !== null) {
-    const savedData = JSON.parse(jsonData);
     userName.value = savedData.name;
     userEmail.value = savedData.mail;
     userMsg.value = savedData.msg;
