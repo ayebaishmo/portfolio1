@@ -148,11 +148,9 @@ for (let i = 0; i < project.length; i += 1) {
   carddiv.appendChild(pic);
   const backImg = document.createElement('img');
   pic.appendChild(backImg);
-  if (windowSize.matches)
-  {
+  if (windowSize.matches){
     backImg.setAttribute('src', project[i].deskImg);
-  } else 
-  {
+  } else {
     backImg.setAttribute('src', project[i].img);
     backImg.removeAttribute('src', project[i].deskImg);
     }
@@ -182,35 +180,35 @@ for (let i = 0; i < project.length; i += 1) {
   bigButton.className = 'openPopupButton';
 }
 
-const id = 0
-const popupWrapper = document.createElement('div')
-projCtn.appendChild(popupWrapper)
+const id;
+const popupWrapper = document.createElement('div');
+projCtn.appendChild(popupWrapper);
 
 function createPopup(id = 0) {
   // create popup div
   const popBack = document.createElement('div');
   popupWrapper.appendChild(popBack);
   popBack.className = 'projPopup';
-  
+
   // create background (surrounds card)
   const popBackx = document.createElement('div');
   popBack.appendChild(popBackx);
   popBackx.className = 'popup_background';
-  
+
   // popup card
   const card = document.createElement('div');
   popBack.appendChild(card);
   card.className = 'projDet';
-  
-  // popup heading 
+
+  // popup heading
   const popHead = document.createElement('h4');
   card.appendChild(popHead);
   if (windowSize.matches) {
-      popHead.textContent = project[id].name;
-} else {
+    popHead.textContent = project[id].name;
+  } else {
     popHead.textContent = project[id].deskname;
-    }
-  
+  }
+
   // popclosebutton
   const popupButton = document.createElement('button');
   card.appendChild(popupButton);
@@ -218,8 +216,8 @@ function createPopup(id = 0) {
   popupButton.className = 'close_popup';
 
   // close button use
-  popupButton.addEventListener('click', closePopup)
-  
+  popupButton.addEventListener('click', closePopup);
+
   // popLanguagues
   const popupLangs = document.createElement('ul');
   card.appendChild(popupLangs);
@@ -232,17 +230,17 @@ function createPopup(id = 0) {
     popLangsLi.appendChild(popliButtons);
     popliButtons.textContent = project[id].langs[k];
   }
-  
+
   // popImg
   const sortDiv = document.createElement('div');
-  sortDiv.className =  'sortDiv';
+  sortDiv.className = 'sortDiv';
   card.appendChild(sortDiv);
   const popupImg = document.createElement('div');
-  popupImg.className = 'imgDiv'
+  popupImg.className = 'imgDiv';
   sortDiv.appendChild(popupImg);
   if (windowSize.matches) {
       popupImg.innerHTML = project[id].popImg;
-} else {
+  } else {
     popupImg.innerHTML = project[id].popImgdesk;
   }
   
@@ -253,7 +251,7 @@ function createPopup(id = 0) {
   const popupPara = document.createElement('p');
   divSort.appendChild(popupPara);
   popupPara.textContent = project[id].popPara
-  
+
   // poplastButtons
   const ulButton = document.createElement('ul');
   divSort.appendChild(ulButton);
@@ -262,7 +260,7 @@ function createPopup(id = 0) {
   // Live
   const liLiveButton = document.createElement('li');
   ulButton.appendChild(liLiveButton);
-  let popLiveButton = document.createElement('button');
+  const popLiveButton = document.createElement('button');
   liLiveButton.appendChild(popLiveButton);
   popLiveButton.textContent = 'See Live';
 
@@ -275,12 +273,12 @@ function createPopup(id = 0) {
 }
 
 function closePopup() {
-  popupWrapper.innerHTML = ''
+  popupWrapper.innerHTML = '';
 }
 
 for (let k = 0; k < project.length; k += 1) {
-  let openPopupId = document.getElementById(k.toString());
-  openPopupId.addEventListener('click', function() {
+  const openPopupId = document.getElementById(k.toString());
+  openPopupId.addEventListener('click', function () {
     createPopup(k);
-});
+  });
 }
