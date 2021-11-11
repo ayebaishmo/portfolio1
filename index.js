@@ -281,3 +281,25 @@ for (let k = 0; k < project.length; k += 1) {
     createPopup(k);
   });
 }
+
+const form = document.querySelector('form');
+const mail = document.getElementById('useremail');
+const small = document.createElement('small');
+const errorMessage = 'Please enter email address in lowercase only.';
+
+function checkCase(input) {
+  return /[A-Z]/.test(input);
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const mailInput = mail.value.trim();
+
+  if (checkCase(mailInput)) {
+    form.appendChild(small);
+    small.textContent = errorMessage;
+  } else {
+    form.submit();
+  }
+});

@@ -542,6 +542,13 @@ button :hover {
   text-align: center;
 }
 
+footer > div > form > small {
+  color: #f3710e;
+  border: 1px solid red;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
 footer > div > form {
   display: flex;
   flex-direction: column;
