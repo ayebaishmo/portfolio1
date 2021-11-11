@@ -131,10 +131,6 @@ const project = [
   },
 ];
 
-function closePopup() {
-  popupWrapper.innerHTML = '';
-}
-
 const projCtn = document.getElementById('worksDet');
 
 for (let i = 0; i < project.length; i += 1) {
@@ -184,9 +180,12 @@ for (let i = 0; i < project.length; i += 1) {
   bigButton.className = 'openPopupButton';
 }
 
-const id = 0;
 const popupWrapper = document.createElement('div');
 projCtn.appendChild(popupWrapper);
+
+function closePopup() {
+  popupWrapper.innerHTML = '';
+}
 
 function createPopup(id = 0) {
   // create popup div
@@ -278,7 +277,7 @@ function createPopup(id = 0) {
 
 for (let k = 0; k < project.length; k += 1) {
   const openPopupId = document.getElementById(k.toString());
-  openPopupId.addEventListener('click', function () {
+  openPopupId.addEventListener('click', function pop() {
     createPopup(k);
   });
 }
