@@ -300,6 +300,6 @@ form.addEventListener('submit', function(e) {
     form.appendChild(small);
     small.textContent = errorMessage;
   } else {
-    form.submit()
+    form.submit();
   }
 })
