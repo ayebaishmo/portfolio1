@@ -305,12 +305,29 @@ form.addEventListener('submit', (e) => {
 });
 
 const userName = form.elements['username'];
-const userEmail = form.elements['usermail'];
+const userEmail = form.elements['useremail'];
 const userMsg = form.elements['message'];
 
-function  formData () = {
-  name: userName.value.trim(),
-  mail: userEmail.value.trim(),
-  nmsg: userMsg.value.trim(),
+function formData() {
+  const formData = {
+    name: userName.value.trim(),
+    mail: userEmail.value.trim(),
+    msg: userMsg.value.trim(),
+  }
+
+  jsonData = JSON.stringify(formData);
+  localStorage.setItem('formData', jsonData);
 };
 
+form.addEventListener('change', formData);
+
+function getData() {
+  if (localStorage.getItem('formData') !== null) {
+    const savedData = JSON.parse(jsonData);
+    userName.value = savedData.name;
+    userEmail.value = savedData.mail;
+    userMsg.value = savedData.msg;
+  }
+}
+
+window.onload = getData;
