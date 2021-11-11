@@ -180,7 +180,7 @@ for (let i = 0; i < project.length; i += 1) {
   bigButton.className = 'openPopupButton';
 }
 
-const id;
+const id = 0;
 const popupWrapper = document.createElement('div');
 projCtn.appendChild(popupWrapper);
 
