@@ -315,7 +315,7 @@ function formData() {
     msg: userMsg.value.trim(),
   };
 
-  var jsonData = JSON.stringify(formData);
+  const jsonData = JSON.stringify(formData);
   localStorage.setItem('formData', jsonData);
 }
 
