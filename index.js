@@ -291,7 +291,7 @@ function checkCase(input) {
   return /[A-Z]/.test(input);
 }
 
-form.addEventListener('submit', function(e) {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   const mailInput = mail.value.trim();
@@ -302,4 +302,4 @@ form.addEventListener('submit', function(e) {
   } else {
     form.submit();
   }
-})
+});
