@@ -303,3 +303,31 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+const userName = document.getElementById('username');
+const userEmail = document.getElementById('useremail');
+const userMsg = document.getElementById('message');
+
+function formData() {
+  const formData = {
+    name: userName.value.trim(),
+    mail: userEmail.value.trim(),
+    msg: userMsg.value.trim(),
+  };
+
+  const jsonData = JSON.stringify(formData);
+  localStorage.setItem('formData', jsonData);
+}
+
+form.addEventListener('change', formData);
+
+function getData() {
+  const savedData = JSON.parse(localStorage.getItem('formData'));
+  if (localStorage.getItem('formData') !== null) {
+    userName.value = savedData.name;
+    userEmail.value = savedData.mail;
+    userMsg.value = savedData.msg;
+  }
+}
+
+window.onload = getData;
