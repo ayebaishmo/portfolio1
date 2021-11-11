@@ -131,6 +131,10 @@ const project = [
   },
 ];
 
+function closePopup() {
+  popupWrapper.innerHTML = '';
+}
+
 const projCtn = document.getElementById('worksDet');
 
 for (let i = 0; i < project.length; i += 1) {
@@ -148,12 +152,12 @@ for (let i = 0; i < project.length; i += 1) {
   carddiv.appendChild(pic);
   const backImg = document.createElement('img');
   pic.appendChild(backImg);
-  if (windowSize.matches){
+  if (windowSize.matches) {
     backImg.setAttribute('src', project[i].deskImg);
   } else {
     backImg.setAttribute('src', project[i].img);
     backImg.removeAttribute('src', project[i].deskImg);
-    }
+  }
   // create paragraph
   const para = document.createElement('p');
   carddiv.appendChild(para);
@@ -239,18 +243,18 @@ function createPopup(id = 0) {
   popupImg.className = 'imgDiv';
   sortDiv.appendChild(popupImg);
   if (windowSize.matches) {
-      popupImg.innerHTML = project[id].popImg;
+    popupImg.innerHTML = project[id].popImg;
   } else {
     popupImg.innerHTML = project[id].popImgdesk;
   }
-  
+
   // poppara
   const divSort = document.createElement('div');
   divSort.className = 'divSort';
   sortDiv.appendChild(divSort);
   const popupPara = document.createElement('p');
   divSort.appendChild(popupPara);
-  popupPara.textContent = project[id].popPara
+  popupPara.textContent = project[id].popPara;
 
   // poplastButtons
   const ulButton = document.createElement('ul');
@@ -270,10 +274,6 @@ function createPopup(id = 0) {
   const popSrcButton = document.createElement('button');
   liSrcButton.appendChild(popSrcButton);
   popSrcButton.textContent = 'See Source';
-}
-
-function closePopup() {
-  popupWrapper.innerHTML = '';
 }
 
 for (let k = 0; k < project.length; k += 1) {
