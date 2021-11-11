@@ -284,6 +284,10 @@ footer > div > p {
   margin-right: 30px;
 }
 
+.see_buttons img {
+  margin: 0 14px;
+}
+
 .works_det > img,
 .works_det > div > picture,
 .works_det > div > picture > img {
@@ -423,12 +427,12 @@ footer > div > p {
   background-color: #ff6b00;
 }
 
-.see_buttons button :last-child {
-  margin-left: 19px;
+button :hover {
+  background-color: rgb(31, 31, 29);
 }
 
-.see_buttons img {
-  margin: 0 14px;
+.see_buttons button :last-child {
+  margin-left: 19px;
 }
 
 .about_head > button {
@@ -537,10 +541,6 @@ footer > div > p {
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-
-button :hover {
-  background-color: rgb(31, 31, 29);
 }
 
 footer > div > form {
@@ -732,7 +732,7 @@ textarea:valid {
     justify-content: space-between;
     height: 100%;
   }
-  
+
   .works_head > .med_works {
     flex-direction: row;
     margin-top: -20px;
